@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    max-width: 1920px;
+}
+button {
+    border: none;
+cursor: pointer;
+}
+/* ============================== sektion hedder =============================== */
+
+
+header {
+    background-color: #323232;
+    color: rgb(251, 253, 254);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: end;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.headBlack > p {
+    padding-right: 40px;
+    font-size: 14px;
+}
+.buttonRed > button {
+    background-color: #FF3C00;
+    color: rgb(251, 253, 254);
+    padding: 20px 41px;
+    text-transform: uppercase;
+}
+
+/* ================================ sektion 1 ===================================== */
+section {
+    display: flex;
+    justify-content: center;
+}
+.welkomSection {
+
+    background-image: url(./imgs/bgc-section-1.svg);
+    background-size: cover;
+    background-position: center;
+
+}
+.welkomSection .container {
+    max-width: 1920px;
+    margin: 230px 0;
+}
+.welkomSection h1 {
+    font-size: 78px;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+    
+}
+.welkomSection p {
+    font-size: 20.13px;
+    font-weight: 500;
+    margin-top: 27px;
+    max-width: 816px;
+}
+.welkomSection button {
+   height: 65px;
+   width: 219px;
+margin-top: 52px;
+font-size: 19.5px;
+text-transform: uppercase;
+font-weight: 800;
+color: white;
+background-color: #323232;
+}
+/* ===============     section-violet    =========================== */
+.sectionViolet-img {
+
+    position:relative;
+    width: 66vw;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+.sectionViolet {
+display: flex;
+background-image: url("./imgs/div-violet.jpg.png");
+background-size: cover; /* Растягивает изображение, сохраняя пропорции */
+            background-repeat: no-repeat; /* Запрещает повторение изображения */
+            background-position: center center;
+padding: 47px 80px 48px;
+position: absolute;
+
+}
+.sectionViolet h3 {
+    color: rgb(253, 253, 253);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.sectionViolet button {
+    padding: 29px 49px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 22.5px;
+    margin-left: 80px;
+    text-transform: uppercase;
+font-weight: 800;
+color: white;
+background-color: #323232;
+white-space: nowrap; 
+}
+
+@media (max-width: 853px) {
+   .sectionViolet {
+    flex-direction: column;
+    height: auto;
+    font-size: 30px;
+   } 
+   .sectionViolet button {
+    min-width: 342px;
+
+    margin-top: 17px;
+    font-size: 21px;
+    padding: 29px 72px;
+    white-space: pre-line;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+/* /==============cookies sektion================================ */
+/* .cookiesSection {
+
+}
+.cookisInfo {
+
+}
+.cookisAksion {
+    display: flex;
+    border: 1px solid;
+    gap: 18px;
+} */
+
+
+
+/* заготовка для блока, который будет стоять между страницами
+.main {
+    background-color: teal;
+    height:120px;
+    position:relative;
+}
+
+.box {
+    background-color: red;
+    height:40px;
+    max-width: 175px;
+    width:100%;
+    position:absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+/* заготовка для первой странице
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ========== START HOME SECTION============= */
+/* .homeSection {}
+.homeNav {
+  background-color: #323232;
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  font-size: 23px;
+  align-items: center;
+  gap: 40px
+}
+.homeNav>button {
+  height: 55px;
+  background-color: #FF3C00;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+} */ 
