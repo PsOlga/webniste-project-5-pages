@@ -1,194 +1,128 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    font-family: "Inter", sans-serif;
-}
+<main>
+    <header>
+        <div class="headBlack">
+            <p class="headBlackParagraph">November 2nd-3rd 2023 | NEw Center, Berline</p>
+        </div>
+        <div class="buttonRed">
+            <button >See you in 2024</button>
+          
+        </div>
+    </header>
 
-main {
-    display: grid;
-    place-items: center;
-    max-width: 1920px;
-}
-button {
-    border: none;
-cursor: pointer;
-}
-/* ============================== sektion hedder =============================== */
+<section class="welkomSection">
+   <div class="container">
+    <h1>A fresh take on creating
+        websites and products
+        people love</h1>
+    <p>This year we came together in Berline for our first-ever HOTSAUCE conference. Over
+        two days, some of the brightest minds in product, marketing, ecommerce, and UX
+        joined us to connect over the future of digital experiences—and we had a blast.</p>
+    <p>Join us next year for more visionary keynotes, peer-led roundtables, Hotjar
+        masterclasses, and new connections. Be the first to learn about HOTSAUCE 2024 by
+        subscribing to our newsletter.</p>
+    <button>Get Updates</button>
+   </div>
+</section>
 
+<section class="sectionViolet-img">
+    <div class="sectionViolet">
+        <h3>Be the first to know
+            about HOTSAUCE 2024</h3>
 
-header {
-    background-color: #323232;
-    color: rgb(251, 253, 254);
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    justify-content: end;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-.headBlack > p {
-    padding-right: 40px;
-    font-size: 14px;
-}
-.buttonRed > button {
-    background-color: #FF3C00;
-    color: rgb(251, 253, 254);
-    padding: 20px 41px;
-    text-transform: uppercase;
-}
+           <div class="buttonGetUpdates">
+            <button class="GetUpdates">
+                Get Updates
+            </button>
+           </div>
+    </div>
+</section>
+  <section class="ourSpeakers">
+    <h1 class="ourSpeakersH1">Our Speakers</h1>
+  </section>
 
-/* ================================ sektion 1 ===================================== */
-section {
-    display: flex;
-    justify-content: center;
-}
-.welkomSection {
+<!-- =================  speakers  =============================== -->
+  <section class="speakers">
 
-    background-image: url(./imgs/bgc-section-1.svg);
-    background-size: cover;
-    background-position: center;
+<div class="gridSpiker keisha">
+    <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Keisha-Mabry.png (1).svg" alt="">
+<h3 class="name">Keisha Mabry</h3>
+    <p class="posision">
+    Founder
+</p>
+<p class="topic">Heydays</p>
+<a class="view" href="">View Bio</a>
+</div>
+ 
 
-}
-.welkomSection .container {
-    max-width: 1920px;
-    margin: 230px 0;
-}
-.welkomSection h1 {
-    font-size: 78px;
-    font-weight: 900;
-    text-transform: uppercase;
-    
-    
-}
-.welkomSection p {
-    font-size: 20.13px;
-    font-weight: 500;
-    margin-top: 27px;
-    max-width: 816px;
-}
-.welkomSection button {
-   height: 65px;
-   width: 219px;
-margin-top: 52px;
-font-size: 19.5px;
-text-transform: uppercase;
-font-weight: 800;
-color: white;
-background-color: #323232;
-}
-/* ===============     section-violet    =========================== */
-.sectionViolet-img {
+  <div class="gridSpiker chris">
+    <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Chris-Do.png.svg" alt="">
+<h3 class="name">Chris Do</h3>
+    <p class="posision">
+    Founder
+</p>
+<p class="topic">The Futur</p>
+<a class="view"  href="">View Bio</a>
+</div>
 
-    position:relative;
-    width: 66vw;
-    display: flex;
-    justify-content: center;
-align-items: center;
+  <div class="gridSpiker rand">
+    <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Rand-Fishkin.png.svg" alt="">
+<h3 class="name">Rand Fishkin</h3>
+    <p class="posision">
+        Cofounder & CEO
+</p>
+<p class="topic">SparkToro</p>
+<a class="view" href="">View Bio</a>
+</div>
 
-}
-.sectionViolet {
-display: flex;
-background-image: url("./imgs/div-violet.jpg.png");
-background-size: cover; /* Растягивает изображение, сохраняя пропорции */
-            background-repeat: no-repeat; /* Запрещает повторение изображения */
-            background-position: center center;
-padding: 47px 80px 48px;
-position: absolute;
+<div class="gridSpiker ioana">
+    <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Ioana-Teleanu.png.svg" alt="">
+<h3 class="name">Ioana Teleanu</h3>
+    <p class="posision">
+        Lead Product Designer, AI
+</p>
+<p class="topic">Miro</p>
+<a class="view" href="">View Bio</a>
+</div>
 
-}
-.sectionViolet h3 {
-    color: rgb(253, 253, 253);
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 48px;
-}
-.sectionViolet button {
-    padding: 29px 49px;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 22.5px;
-    margin-left: 80px;
-    text-transform: uppercase;
-font-weight: 800;
-color: white;
-background-color: #323232;
-white-space: nowrap; 
-}
+<div class="gridSpiker kyle">
+    <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Kyle-Poyar.png.svg" alt="">
+<h3 class="name">Kyle Poyar</h3>
+    <p class="posision">
+        Operating Partner
+</p>
+<p class="topic">OpenView</p>
+<a class="view" href="">View Bio</a>
+</div>
 
-@media (max-width: 853px) {
-   .sectionViolet {
-    flex-direction: column;
-    height: auto;
-    font-size: 30px;
-   } 
-   .sectionViolet button {
-    min-width: 342px;
+<div class="gridSpiker allSpeakers">
+   <img src="./imgs/imgsSpeakers/Section → Picture → Speaker-Sauce-CTA.png.svg" alt="">
+<h3 class="name">+ Many more
+    industry experts</h3>
+    <p class="posision">
+   
+</p>
+<p class="topic"></p>
+<a class="view" href="">View all speakers</a>
+</div>
 
-    margin-top: 17px;
-    font-size: 21px;
-    padding: 29px 72px;
-    white-space: pre-line;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-}
+</section>
+<!-- ========================= section jellow  ======================================================  -->
+<section class="jellow">
 
-/* /==============cookies sektion================================ */
-/* .cookiesSection {
+</section>
 
-}
-.cookisInfo {
+<!-- <section class="cookiesSection">
+<div class="cookisInfo"> 
+    <h2>Cookies</h2>
+    <p>We use cookies to provide visitors with the best possible experience on our website. These include analytics, functionality, and targeting cookies, which may also be used in our
+        marketing efforts. Click the button to agree to the use of cookies or click ‘Cookie settings’ to manage your preferences.</p>
+<a href=""></a>
+    </div>
+<div class="cookisAksion">
+    <a href="">Cookie settings</a>
+    <button>Reject All</button>
+    <button>Accept</button>
+</div>
 
-}
-.cookisAksion {
-    display: flex;
-    border: 1px solid;
-    gap: 18px;
-} */
-
-
-
-/* заготовка для блока, который будет стоять между страницами
-.main {
-    background-color: teal;
-    height:120px;
-    position:relative;
-}
-
-.box {
-    background-color: red;
-    height:40px;
-    max-width: 175px;
-    width:100%;
-    position:absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
-/* заготовка для первой странице
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* ========== START HOME SECTION============= */
-/* .homeSection {}
-.homeNav {
-  background-color: #323232;
-  display: flex;
-  justify-content: end;
-  color: #fff;
-  font-size: 23px;
-  align-items: center;
-  gap: 40px
-}
-.homeNav>button {
-  height: 55px;
-  background-color: #FF3C00;
-  color: #fff;
-  border: none;
-  padding: 20px 40px;
-} */ 
+</section> -->
+</main>
